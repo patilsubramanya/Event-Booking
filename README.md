@@ -32,3 +32,25 @@ This project is built using **React** for the frontend, **Spring Boot** for the 
 ---
 
 ## Project Structure
+
+
+---
+
+## 🔧 Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (v18+ recommended)
+- [Java JDK](https://www.oracle.com/java/technologies/javase-downloads.html) (17+ recommended)
+- [Maven](https://maven.apache.org/) (for Spring Boot)
+- [MySQL](https://dev.mysql.com/downloads/) (8.0+ recommended)
+- [Git](https://git-scm.com/)
+
+---
+
+## Setup & Installation
+
+### ** Clone the Repository**
+```bash
+git clone https://github.com/<your-username>/eventbooking.git
+cd eventbooking
