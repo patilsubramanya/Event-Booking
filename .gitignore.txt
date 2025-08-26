@@ -1,0 +1,15 @@
+# Ignore node_modules for both frontend and backend
+EventBooking/node_modules
+eventbooking-frontend/node_modules
+
+# Ignore environment files
+EventBooking/.env
+eventbooking-frontend/.env
+
+# Ignore build and dist folders if any
+EventBooking/dist
+eventbooking-frontend/build
+
+# Ignore system files
+.DS_Store
+Thumbs.db
