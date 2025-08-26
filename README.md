@@ -4,7 +4,7 @@ This project is built using **React** for the frontend, **Spring Boot** for the 
 
 ---
 
-## 🚀 Features
+## Features
 
 - 🔹 **User Management** – Register, login, and manage user details.
 - 🔹 **Event Management** – Create, update, view, and delete events.
@@ -14,7 +14,7 @@ This project is built using **React** for the frontend, **Spring Boot** for the 
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### **Frontend**
 - React.js
@@ -33,4 +33,4 @@ This project is built using **React** for the frontend, **Spring Boot** for the 
 
 ---
 
-## 📦 Project Structure
+## Project Structure
