@@ -46,7 +46,6 @@ public class BookingService {
     }
 
     public List<BookingResponse> getAllBookings() {
-        //System.out.println(String.format("Fetching bookings for username: %s", userId));
         List<Booking> bookings = bookingRepository.findAllByOrderByBookingTimeDesc();
 
         return bookings.stream().map(b -> {

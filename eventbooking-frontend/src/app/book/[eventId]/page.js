@@ -42,9 +42,9 @@ export default function BookEvent() {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          eventId: event.id,           // matches backend
-          userId: userName,           // matches backend
-          numberOfTickets: tickets    // matches backend
+          eventId: event.id,          
+          userId: userName,           
+          numberOfTickets: tickets    
         }),
       });
 
@@ -56,7 +56,7 @@ export default function BookEvent() {
       }
 
       alert(`Successfully booked ${tickets} ticket(s)!`);
-      router.push(`/BookedEvents?userId=${encodeURIComponent(userName)}`); // pass userId for filtering
+      router.push(`/BookedEvents?userId=${encodeURIComponent(userName)}`);
     } catch (err) {
       console.error("Booking error:", err);
       alert("Booking failed! Check console for details.");

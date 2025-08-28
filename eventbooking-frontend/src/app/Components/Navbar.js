@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-dark bg-dark bg-opacity-75 fixed-top">
       <div className="container d-flex justify-content-between align-items-center">
-        {/* Logo / Brand */}
+        {/* Title */}
         <Link className="navbar-brand fw-bold text-light" href="/">
           EventBooking
         </Link>

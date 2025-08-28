@@ -26,10 +26,7 @@ const BookedEvents = () => {
 
     try {
       await api.delete(`/bookings/${id}`);
-      // Remove deleted booking from state
-      //setBooked(bookedEvents => bookedEvents.filter((b) => b.id !== id));
       setBooked(prevBooked => prevBooked.filter((b) => b.id !== id));
-    //   alert(`Successfully booked ${tickets} ticket(s)!`);
       alert(`Successfully deleted the tickets!`);
     } catch (err) {
       console.error('Failed to delete booking', err);
@@ -54,7 +51,7 @@ const BookedEvents = () => {
                     <th>Organizer</th>
                     <th>User</th>
                     <th>Tickets Booked</th>
-                    <th>Action</th> {/* New column for delete */}
+                    <th>Action</th> {/* New Column for Delete */}
                 </tr>
             </thead>
             <tbody>

@@ -23,7 +23,6 @@ export default function AddEvent() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Send data to backend
     const res = await fetch("http://localhost:8080/api/events", {
       method: "POST",
       headers: { "Content-Type": "application/json" },

@@ -9,7 +9,6 @@ public class Booking {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-//    @Column(name = "event_id", nullable = false)
     private Long id;
     @Column(name = "event_id", nullable = false)
     private Long eventId;

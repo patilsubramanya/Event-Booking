@@ -3,7 +3,7 @@ package com.example.EventBooking.model;
 import jakarta.persistence.*;
 import java.time.LocalDate;
 
-@Entity // tells JPA this class maps to a database table
+@Entity
 @Table(name = "events") // table name in MySQL
 public class Event {
 
@@ -48,4 +48,3 @@ public class Event {
     public int getAvailableTickets() { return availableTickets; }
     public void setAvailableTickets(int availableTickets) { this.availableTickets = availableTickets; }
 }
-
