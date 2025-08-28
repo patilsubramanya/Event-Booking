@@ -88,10 +88,10 @@ npm start
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home Page](Screenshots/Home Page.png)
+![Home Page](Screenshots/Home_Page.png)
 
 ### ➕ Add Event Page
-![Add Event](Screenshots/Add Event.png)
+![Add Event](Screenshots/Add_Event.png)
 
 ### 📅 Booking Page
-![Booking Page](Screenshots/View Booked Events.png)
+![Booking Page](Screenshots/View_Booked_Events.png)
