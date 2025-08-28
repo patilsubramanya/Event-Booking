@@ -29,11 +29,6 @@ This project is built using **React** for the frontend, **Spring Boot** for the 
 
 ---
 
-## Project Structure
-
-
----
-
 ## 🔧 Prerequisites
 
 Make sure you have the following installed:
