@@ -84,3 +84,14 @@ npm install
 npm start
 ```
 #### Frontend will run on: http://localhost:3000
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home Page](Screenshots/Home Page.png)
+
+### ➕ Add Event Page
+![Add Event](Screenshots/Add Event.png)
+
+### 📅 Booking Page
+![Booking Page](Screenshots/View Booked Events.png)
