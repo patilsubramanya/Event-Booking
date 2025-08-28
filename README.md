@@ -29,7 +29,7 @@ This project is built using **React** for the frontend, **Spring Boot** for the 
 
 ---
 
-## 🔧 Prerequisites
+## Prerequisites
 
 Make sure you have the following installed:
 
