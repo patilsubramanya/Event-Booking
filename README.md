@@ -1,5 +1,5 @@
 # Event Booking System
-A **full-stack web application** for booking events, managing users, and handling event details seamlessly.  
+A **full-stack web application** for adding events, booking/deleting event tickets, and handling event details seamlessly.  
 This project is built using **React** for the frontend, **Spring Boot** for the backend, and **MySQL** as the database.
 
 ---
@@ -18,12 +18,10 @@ This project is built using **React** for the frontend, **Spring Boot** for the 
 - React.js
 - React Router
 - Axios
-- Tailwind CSS / CSS Modules *(if used)*
 
 ### **Backend**
 - Spring Boot
 - Spring Data JPA
-- Spring Security *(if authentication is implemented)*
 - MySQL Connector
 
 ### **Database**
@@ -50,7 +48,39 @@ Make sure you have the following installed:
 
 ## Setup & Installation
 
-### ** Clone the Repository**
+###  **Clone the Repository**
 ```bash
-git clone https://github.com/<your-username>/eventbooking.git
+git clone https://github.com/patilsubramanya/eventbooking.git
 cd eventbooking
+```
+### **Setup the Backend**
+```bash
+cd eventbooking-backend
+```
+### Open src/main/resources/application.properties and configure your database:
+```bash
+spring.datasource.url=jdbc:mysql://localhost:3306/eventbooking
+spring.datasource.username=<your-db-username>
+spring.datasource.password=<your-db-password>
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+```
+### Build and run the Backend
+```bash
+mvn clean install
+mvn spring-boot:run
+```
+#### Backend will start on: http://localhost:8080
+### **Setup the Frontend**
+```bash
+cd ../eventbooking-frontend
+```
+### Install the dependencies
+```bash
+npm install
+```
+### Start the Frontend
+```bash
+npm start
+```
+#### Frontend will run on: http://localhost:3000
